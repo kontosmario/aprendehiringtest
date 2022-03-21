@@ -1,0 +1,37 @@
+.hero__text-box {
+    width: 626px;
+    position: relative;
+    bottom: -90px;
+    margin: 30px;
+
+    .hero__title {
+        text-align: left;
+        font: normal normal normal 45px/54px Collier;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        display: inline-block;
+
+
+        &:first-child {
+            margin-bottom: 6px;
+        }
+
+        &.highlight {
+            background-color: #5256A3;
+            padding: 0 20px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .hero__paragraph {
+        color: var(--gray);
+        text-align: left;
+        font: normal normal normal 16px/22px Source Sans Pro;
+        letter-spacing: 0px;
+        color: #D7DFE4;
+        opacity: 1;
+    }
+
+  
+}

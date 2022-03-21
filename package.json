@@ -1,0 +1,32 @@
+{
+  "name": "aprendehiringtest",
+  "version": "1.0.0",
+  "description": "This is an hiring test for Aprende.com by Mario Jorge Kontos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node-sass": "node-sass --watch stylesheets/main.scss public/main.css --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kontosmario/aprendehiringtest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kontosmario/aprendehiringtest/issues"
+  },
+  "homepage": "https://github.com/kontosmario/aprendehiringtest#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "http-server": "^14.1.0",
+    "node-sass": "^7.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.49.9"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}

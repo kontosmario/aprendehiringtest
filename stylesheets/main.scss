@@ -1,0 +1,22 @@
+// Abstracts
+@import 'abstracts/variables';
+
+// Base
+@import 'base/reset';
+@import 'base/typography.scss';
+
+//Components
+@import 'components/button';
+@import 'components/hero-titles';
+@import 'components/form';
+@import 'components/title';
+@import 'components/master-class';
+
+//Layout
+@import 'layout/navbar';
+@import 'layout/hero';
+@import 'layout/titles';
+@import 'layout/footer';
+@import 'layout/master-class';
+
+//Pages

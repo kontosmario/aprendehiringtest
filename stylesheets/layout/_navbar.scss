@@ -1,0 +1,16 @@
+.navbar__aprende {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: $black;
+    height: 104px;
+    opacity: 1;
+
+    .navbar__aprende__logo {
+        position: absolute;
+        top: 17px;
+        left: 84px;
+    }
+
+}
